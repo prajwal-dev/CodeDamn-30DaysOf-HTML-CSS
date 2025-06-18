@@ -2,4 +2,21 @@
 
 Day 4- Semantic HTML Structure
 
-_Topics covered_
+# Topics covered
+
+-header
+-nav
+-main
+-foooter
+-lists(<li>,<ul>)
+
+================================================
+Day 5- Wobble Animation
+
+# Topics covered
+
+-Learned about Animations
+-keyframes
+-transforms
+
+================================================
