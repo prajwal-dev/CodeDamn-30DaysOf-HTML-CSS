@@ -20,3 +20,16 @@ Day 5- Wobble Animation
 -transforms
 
 ================================================
+Day 6
+
+================================================
+Day 7- Loader Animation
+
+# Topics covered
+
+-Learned about Animations
+-keyframes
+-transforms
+-grid
+
+================================================
