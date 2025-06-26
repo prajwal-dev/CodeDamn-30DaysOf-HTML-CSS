@@ -1,0 +1,12 @@
+/* Add your styles here */
+#container{
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#text{
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
