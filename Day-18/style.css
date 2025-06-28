@@ -1,0 +1,5 @@
+/* Write the styles for disabling text selection */
+.text{
+    user-select: none;
+    -webkit-user-select: none;
+}
