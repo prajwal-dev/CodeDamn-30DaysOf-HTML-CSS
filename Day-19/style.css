@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;600;&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #f7f7f7;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+
+.container{
+	background-color:white;
+	padding:2rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 350px;
+}
+h2 {
+	font-weight: 600;
+	font-family: "Inter", sans-serif;
+	/* text-align:center;
+	margin-bottom:1.5rem; */
+
+	text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+	
+}
+
+
+
+#title {
+	background-image: linear-gradient(to bottom right, #818cf8, #22d3ee);
+	/* background-clip: text; */
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-color: #818cf8;
+	color: transparent;
+}
+label{
+	display: block;
+	margin:0.5rem 0 0.2rem;
+	font-size:0.9rem;
+}
+input[type="text"],
+input[type="password"]{
+	width: 100%;
+	padding:0.6rem;
+	margin-bottom:1rem;
+	border:1px solid #ccc;
+	border-radius:6px;
+}
+.options{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	margin-bottom:1rem;
+	font-size:0.85rem;
+
+}
+
+.options a {
+	text-decoration: none;
+	color: #5b69e2;
+  }
+
+.signin-btn{
+	background-color:#3f51b5;
+	color:white;
+	width:100%;
+	padding:0.6rem;
+	border:none;
+	border-radius: 6px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.divider{
+	text-align:center;
+	margin:1.5rem 0 1rem;
+	color:#888;
+	font-size:0.9rem;
+	display: flex;
+}
+
+.social-buttons{
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.google-btn,
+.github-btn {
+  flex: 1;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.signup-text {
+	text-align: center;
+	font-size: 0.9rem;
+  }
+  
+  .signup-text a {
+	color: #5b69e2;
+	text-decoration: none;
+  }
+
+  .captcha-text {
+	font-size: 0.7rem;
+	color: #888;
+	margin-top: 1rem;
+	text-align: center;
+  }
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 10px 10px;
+}
