@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.progress-bar{
+    width:80%;
+    border:1px solid black;
+    height:20px;
+    margin:20px;
+}
+.progress{
+   background-color:lightgreen;
+   height: 100%;
+   animation:loading 3s linear
+}
+
+@keyframes loading{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
